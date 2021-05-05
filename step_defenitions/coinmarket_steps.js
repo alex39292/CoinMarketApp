@@ -13,7 +13,7 @@ When('I input keyword into searching field', async () => {
 });
 
 When('I click on search button', async () => {
-    const item = await $('div[aria-expanded] div svg');
+    const item = await $('.kyoBCp');
     return await item.click();
 });
 
