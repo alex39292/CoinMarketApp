@@ -1,0 +1,26 @@
+{
+  "name": "coinmarketapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex39292/CoinMarketApp.git"
+  },
+  "author": "Aliaksandr Danilin danilas39292@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex39292/CoinMarketApp/issues"
+  },
+  "homepage": "https://github.com/alex39292/CoinMarketApp#readme",
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-pretty": "^6.0.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^8.0.4",
+    "yargs": "^17.0.1"
+  }
+}
