@@ -1,13 +1,6 @@
 const path = require('path');
 
 const yargs = require('yargs')
-    .option('tags', {
-        alias: 't',
-        default: '@test',
-        describe: 'Choose a test',
-        choices: ['@test', '@production'],
-        type: 'string',
-    })
     .option('instances', {
         alias: 'i',
         default: 1,
@@ -37,7 +30,6 @@ exports.config = {
     directConnect: true,
     cucumberOpts: {
         require: ['../step_defenitions/*.js'],
-        tags: yargs.tags,
     },
     onPrepare: () => {
         global.keyword = yargs.keyword;

@@ -19,7 +19,5 @@ When('I click on search button', async () => {
 
 Then('I wait for few seconds', async () => {
     await browser.wait(ExpectedConditions.urlContains(keyword), 5000);
-    const result = (await browser.getSession()).getId().toString();
-    console.log(result);
-    return browser.sleep(7000);
+    return browser.sleep(10000);
 });

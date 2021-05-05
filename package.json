@@ -4,9 +4,8 @@
   "description": "",
   "main": "protractor_conf.js",
   "scripts": {
-    "pretest": "webdriver-manager start",
-    "test": "protractor ./config/protractor_conf.js",
-    "posttest": "webdriver-manager shutdown"
+    "start": "webdriver-manager start",
+    "test": "protractor ./config/protractor_conf.js"
   },
   "repository": {
     "type": "git",
