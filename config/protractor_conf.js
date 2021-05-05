@@ -34,9 +34,7 @@ exports.config = {
         maxInstances: yargs.instances,
         browserName: 'firefox',
     },
-    browserstackUser: 'bsuser_fyGwkL',
-    browserstackKey: 'NmWipu3vjvFXgD3FwTjf',
-    directConnect: false,
+    directConnect: true,
     cucumberOpts: {
         require: ['../step_defenitions/*.js'],
         tags: yargs.tags,
